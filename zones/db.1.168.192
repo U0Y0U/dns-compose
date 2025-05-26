@@ -1,0 +1,12 @@
+$TTL 604800
+@   IN  SOA uoyou.com. admin.uoyou.com. (
+            2         ; Serial
+            604800    ; Refresh
+            86400     ; Retry
+            2419200   ; Expire
+            604800 )  ; Negative Cache TTL
+
+        IN  NS      dns.uoyou.com.
+1		IN	PTR		dns
+1		IN	PTR		rtr
+10		IN	PTR		cli
